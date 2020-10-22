@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        targetSdkVersion 29
+        minSdkVersion 24
+        vectorDrawables.useSupportLibrary true
+
+        applicationId "micael.switchbee.burner"
+        versionCode 1
+        versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.mik3y:usb-serial-for-android:3.0.0' // maven jitpack
+    //implementation('com.github.mik3y:usb-serial-for-android:3.0.0beta') { changing = true } // maven local
+    implementation 'com.google.android.material:material:1.2.1'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+}

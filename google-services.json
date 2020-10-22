@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156827034369",
+    "firebase_url": "https://switchbeeburner.firebaseio.com",
+    "project_id": "switchbeeburner",
+    "storage_bucket": "switchbeeburner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156827034369:android:9529aa3f37822b4d903100",
+        "android_client_info": {
+          "package_name": "micael.switchbee.burner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156827034369-c20rkkhguuggbah51t1hrstvisll6rlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUJXvKybCORjZiBqwUyfq2iWrLIMN_4fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156827034369-c20rkkhguuggbah51t1hrstvisll6rlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
