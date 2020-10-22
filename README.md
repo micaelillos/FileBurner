@@ -1,4 +1,4 @@
-k# File Burner System
+# File Burner System
 
 <p align=center>
     <img src="https://i.imgur.com/zsl4xQh.png" width=250>
